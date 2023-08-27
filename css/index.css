@@ -1,0 +1,7 @@
+@import url(style.css);
+
+section h2{
+    text-decoration: underline;
+    margin: auto;
+    text-align: center;
+}

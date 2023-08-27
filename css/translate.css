@@ -1,0 +1,89 @@
+@import url(style.css);
+
+body{
+    background: rgb(52, 15, 110);
+    color: rgb(129, 104, 216);
+    border: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+    padding: 15px;
+    box-shadow: 0 1px 2px #0003;
+    background: rgb(52, 15, 110);
+    border-radius: 10px;
+    border: 2px solid rgb(129, 104, 216);
+}
+
+.divSelects{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+select{
+    color: rgb(129, 104, 216);
+
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 25px;
+    border: none;
+}
+
+select::after{
+    border: none;
+}
+
+.selectTo{
+    background: rgb(52, 15, 110);
+}
+
+.selectFrom{
+    background: rgb(52, 15, 110);
+}
+
+
+.divTextAreas{
+    background-color: rgb(52, 15, 110);
+    
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.divTextAreas > textarea::placeholder{
+    color: rgb(129, 104, 216);
+}
+
+textarea{
+    background: rgb(52, 15, 110);
+    color: rgb(129, 104, 216);
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 5px;
+    resize: none;
+}
+
+button{
+    margin: 2em;
+    padding: 10px;
+    width: 100%;
+    background: rgb(129, 104, 216);
+    color: rgb(52, 15, 110) ;
+    border: none;
+}
